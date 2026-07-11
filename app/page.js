@@ -2624,8 +2624,8 @@ export default function Home() {
     // State
     const [mode, setMode] = useState(null);
     const [loginMode, setLoginMode] = useState('mix');
-    const [loginEmail, setLoginEmail] = useState('');
-    const [password, setPassword] = useState('');
+     const [loginEmail, setLoginEmail] = useState('admin@gym.com');
+    const [password, setPassword] = useState('admin123');
     const [error, setError] = useState('');
     const [loginLoading, setLoginLoading] = useState(false);
     const [lang, setLang] = useState('ar');
